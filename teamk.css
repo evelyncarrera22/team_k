@@ -1,7 +1,83 @@
 body {
-    background-image: http://7-themes.com/data_images/out/61/6981126-forest-background.jpg
+    background-image: "http://7-themes.com/data_images/out/61/6981126-forest-background.jpg"
 }
 
-.navbar-inverse .navbar-brand{
+
+
+#icons img {
+    position: absolute;
+}
+
+
+
+/*below this line is the css for the home and end page*/
+
+.container-fluid{
+    background-color:black;
     color:white;
+}
+.navbar-default .navbar-brand{
+    color:white;
+    }
+h1{
+    color:green;
+}
+    
+#popup{
+    display:none;
+    position:fixed;
+    top:0%;
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,0.5);
+}
+#popup div{
+    width:600px;
+    margin:20% auto 0 auto;
+    text-align: center;
+    background: white;
+    color: black;
+    font-family: "Arial";
+    padding: 0.75em;
+    font-size:24px;
+    border:5px;
+    border-radius:10px;
+    box-shadow: 10px 10px 5px gray;
+    text-shadow: 2px2px 1px black;
+}
+
+.bar {
+    width: 100%;
+    height:24px;
+    background: #aaa;
+}
+.bar-inner {
+    width: 0%;
+    height: 24px;
+    background: blue;
+    color: white;
+}
+
+.icons {
+    height: 100%;
+    padding: 50px;
+}
+
+audio {
+    display: none;
+}
+
+.icon1 {
+    width: 10%;
+    height: 8%;
+}
+
+.icon5{
+    width:5%;
+    height:5%;
+}
+
+.icon2 {
+    width: 5%;
+    height: 10%;
 }
