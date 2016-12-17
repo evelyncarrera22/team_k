@@ -3,6 +3,8 @@
 //     alert("");
 // }
 
+
+
 $(function() {
     $( "#fade" ).on('click', function() {
         $( "#fade" ).fadeOut( "slow", function() {
